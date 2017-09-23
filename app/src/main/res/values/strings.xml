@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">03_Drawer</string>
+    <string name="menu_sec_act">Second Activity</string>
+    <string name="menu_exit">Exit App</string>
+    </resources>
