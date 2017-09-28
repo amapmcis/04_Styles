@@ -3,9 +3,9 @@
     xmlns:app="http://schemas.android.com/apk/res-auto">
     <item android:id="@+id/sec_act_open"
         android:icon="@drawable/ic_action_android"
-        android:title="@string/menu_sec_act"
+        android:title="@string/toolbar_menu_str_sec_act"
         app:showAsAction="ifRoom"/>
     <item android:id="@+id/close_app"
         android:icon="@drawable/ic_action_export"
-        android:title="@string/menu_exit" />
+        android:title="@string/toolbar_menu_str_exit" />
 </menu>

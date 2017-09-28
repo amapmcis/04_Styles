@@ -1,0 +1,7 @@
+<resources>
+
+    <dimen name="main_text_size">24dp</dimen>
+    <dimen name="toolbar_elevation">5dp</dimen>
+    <dimen name="drawer_elevation">100sp</dimen>
+
+</resources>
