@@ -4,13 +4,13 @@
     android:id="@+id/my_drawer_layout"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context="com.example.f1.a03_drawer.ActivityMain">
+    tools:context="com.example.f1.theme_styles.ActivityMain">
 
     <!-- Main Layout -->
     <RelativeLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        tools:context="com.example.f1.a03_drawer.ActivityMain">
+        tools:context="com.example.f1.theme_styles.ActivityMain">
 
         <!--ToolBar -->
         <android.support.v7.widget.Toolbar
@@ -22,18 +22,30 @@
             android:theme="@style/ThemeOverlay.AppCompat.Dark.ActionBar"
             app:popupTheme="@style/ThemeOverlay.AppCompat.Light" />
 
+        <TextView
+            style="@style/StyleTextView.Primary"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_above="@+id/textView"
+            android:layout_centerHorizontal="true"
+            android:text="@string/str_main_activity_TV" />
 
         <TextView
+            android:id="@+id/textView"
+            style="@style/StyleTextView.Primary"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_centerHorizontal="true"
             android:layout_centerVertical="true"
-            android:text="@string/str_main_activity_TV"
-            android:textSize="@dimen/main_text_size"
-            app:layout_constraintBottom_toBottomOf="parent"
-            app:layout_constraintLeft_toLeftOf="parent"
-            app:layout_constraintRight_toRightOf="parent"
-            app:layout_constraintTop_toTopOf="parent" />
+            android:text="@string/str_main_activity_TV" />
+
+        <TextView
+            style="@style/StyleTextView.Primary"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/textView"
+            android:layout_centerHorizontal="true"
+            android:text="@string/str_main_activity_TV" />
 
     </RelativeLayout>
 

@@ -4,7 +4,7 @@ android {
     compileSdkVersion 26
     buildToolsVersion "26.0.1"
     defaultConfig {
-        applicationId "com.example.f1.a03_drawer"
+        applicationId "com.example.f1.theme_styles"
         minSdkVersion 15
         targetSdkVersion 26
         versionCode 1

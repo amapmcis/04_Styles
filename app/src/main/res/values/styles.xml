@@ -1,6 +1,6 @@
 <resources>
 
-    <!-- Base application theme. -->
+    <!-- Base application theme -->
     <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
         <!-- Customize your theme here. -->
         <item name="colorPrimary">@color/colorPrimary</item>
@@ -8,4 +8,20 @@
         <item name="colorAccent">@color/colorAccent</item>
     </style>
 
+    <!-- Style 1 for TextViews -->
+    <style name="StyleTextView.Primary" parent="AppTheme">
+        <item name="android:textColor">@color/colorPrimaryText</item>
+        <item name="android:background">@color/colorPrimaryLight</item>
+        <item name="android:textSize">@dimen/main_text_size</item>
+        <item name="android:padding">@dimen/textview_padding_primary</item>
+        <item name="android:layout_margin">@dimen/textview_margin_primary</item>
+    </style>
+
+    <!-- Style 2 for TextViews -->
+    <style name="StyleTextView.Secondary" parent="StyleTextView.Primary">
+        <item name="android:textColor">@color/colorSecondaryText</item>
+        <item name="android:background">@color/colorSecondaryLight</item>
+        <item name="android:padding">@dimen/textview_padding_secondary</item>
+        <item name="android:layout_margin">@dimen/textview_margin_secondary</item>
+    </style>
 </resources>

@@ -4,9 +4,10 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context="com.example.f1.a03_drawer.ActivityMain">
+    tools:context="com.example.f1.theme_styles.ActivityMain">
 
     <TextView
+        style="@style/StyleTextView.Secondary"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="@string/str_second_activity_TV"
