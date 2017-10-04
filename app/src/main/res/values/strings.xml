@@ -1,5 +1,4 @@
 <resources>
-
     <!-- App name -->
     <string name="app_name">Themes and Styles</string>
 
@@ -10,5 +9,4 @@
     <!-- Activity names -->
     <string name="str_main_activity_TV">This is Main Activity</string>
     <string name="str_second_activity_TV">This is Second Activity</string>
-
 </resources>
